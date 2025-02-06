@@ -1,0 +1,419 @@
+body{
+    background-color: #E5E7EB;
+}
+
+.header{
+    height: 188px;
+    width: 1300px;
+    background-color: white;
+    
+
+}
+
+.logo{
+    height: 32px;
+    width: 32px;
+    background-image: url(logo.84255c87a633c115a0b1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 12px;
+    position: relative;
+    top: 30px;
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 35px;
+   
+}
+
+
+.searchbox{
+    height: 52px;
+    width: 380px;
+    font-size: 20px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 3px transparent solid;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #E5E7EB;
+    position: relative;
+    left: 40px;
+    top: 30px;
+   
+
+}
+.navbar{
+    display: flex;
+
+}
+.searchbox:hover{
+    border: 3px solid greenyellow;
+}
+
+.icons{
+    height: 80px;
+    width: 760px;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 130px;
+    left:10px;
+    font-weight: 580;
+
+
+}
+
+.mentor{
+    height: 52px;
+    width: 112px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    position:absolute;
+    top: 120px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.loginpage{
+    height: 32px;
+    width: 64px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    position:absolute;
+    top: 120px;
+    margin-left: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    height: 80px;
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.menu{
+    position: relative;
+    top: 160px;
+    left: 80px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family:sans-serif;
+}
+
+
+.paragraphbox3{
+    color: green;
+    opacity: 75%;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(smiling-man-studying-holding-notebooks-looking-happy_1258-39128.avif);
+    background-size: cover;
+    position: relative;
+    left: 900px;
+    top: 40px;
+}
+.thanku{
+    position: absolute;
+    left: 740px;
+    top: 300px;
+    height: 40px;
+    width: 240px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.text{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    position: absolute;
+    top: 450px;
+    display: inline-block;
+}
+
+.getstarted{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    opacity: 90%;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 740px;
+    top:530px;
+}
+.arrow{
+    position:absolute;
+    left: 540px;
+    height: 80px;
+    width: 200px;
+    background-image: url(arrow.aa6ce39180f530f91c99.webp);
+    background-size: cover;
+    top: 530px;
+}
+
+.topcollege{
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top:640px;
+    font-style: inherit;
+    left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.topcolleges{
+    display: inline-block;
+    
+}
+.india{
+    color: green;
+    position: relative;
+    left: 20px;
+  
+}
+.college{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.college1{
+    height: 300px;
+    width: 280px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    background-image: url(iitroorkee.jpeg.eb6d1ad81833358d941f.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.btech{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 200px;
+    right: 60px;
+    border-radius: 3px;
+}
+.mtech{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 200px;
+    right: 40px;
+    border-radius: 3px;
+}
+.phd{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 200px;
+    right: 20px;
+    border-radius: 3px;
+}
+
+.Roorki{
+    position: relative;
+    top: 140px;
+    left:80px;
+
+}
+
+.college2{
+    height: 300px;
+    width: 280px;
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    background-image: url(JadavpurUniversity.jpeg.57bc6a39dbb6be1e8166.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    left: 460px;
+}
+.btech1{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 250px;
+    right: 60px;
+    border-radius: 3px;
+}
+.mtech2{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 250px;
+    right: 40px;
+    border-radius: 3px;
+}
+.phd2{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 250px;
+    right: 20px;
+    border-radius: 3px;
+}
+
+.jadhavpur{
+    position: relative;
+    top:0px;
+    left:80px;
+
+}
+.college3{
+    height: 300px;
+    width: 280px;
+    top: 500px;
+    right: 80px;
+    background-color: white;
+    position: absolute;
+    background-image: url(NITR.daca39d83d25259ea3dd.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.btech3{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 250px;
+    right: 60px;
+    border-radius: 3px;
+}
+.mtech3{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 250px;
+    right: 40px;
+    border-radius: 3px;
+}
+.phd3{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#9AA6B2;
+    position: relative;
+    top: 250px;
+    right: 20px;
+    border-radius: 3px;
+}
+
+.NITR{
+    position: relative;
+    top:200px;
+    left:60px;
+    height: 10px;
+    width: 100px;
+
+}
+
+.collegediv{
+    animation-name: all;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+
+}
+
+@keyframes all {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        
+        transform: translateX(300px);
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
